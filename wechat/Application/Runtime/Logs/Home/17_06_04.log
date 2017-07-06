@@ -1,0 +1,1376 @@
+[ 2017-06-04T00:02:47+08:00 ] ::1 /wechat/index.php/Home/User/getFriends/userid/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002714s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0117s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `friends` WHERE ( userid='000001' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `friends` WHERE `freid` = '000001' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004107s ]
+
+[ 2017-06-04T00:02:48+08:00 ] ::1 /wechat/index.php/Home/User/getFriends/userid/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002969s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0116s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `friends` WHERE ( userid='000001' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `friends` WHERE `freid` = '000001' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003005s ]
+
+[ 2017-06-04T00:06:21+08:00 ] ::1 /wechat/index.php/Home/User/getFriends/userid/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002094s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0106s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0112s ]
+SQL: select * from `friends` where userid='000001'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `friends` WHERE `freid` = '000001' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: frename D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 51 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002326s ]
+
+[ 2017-06-04T00:07:29+08:00 ] ::1 /wechat/index.php/Home/User/getFriends/userid/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002045s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0113s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0112s ]
+SQL: select * from `friends` where userid='000001'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0108s ]
+SQL: select * from `friends` where freid='000001'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: frename D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 51 行.
+NOTIC: [8] Undefined index: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 52 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002327s ]
+
+[ 2017-06-04T00:10:02+08:00 ] ::1 /wechat/index.php/Home/User/getFriends/userid/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002239s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0128s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0119s ]
+SQL: select * from `friends` where userid='000001'  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0143s ]
+SQL: select * from `friends` where freid='000001'  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003723s ]
+
+[ 2017-06-04T00:10:15+08:00 ] ::1 /wechat/index.php/Home/User/getFriends/userid/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002505s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0151s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0109s ]
+SQL: select * from `friends` where userid='000001'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0103s ]
+SQL: select * from `friends` where freid='000001'  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002488s ]
+
+[ 2017-06-04T00:10:40+08:00 ] ::1 /wechat/index.php/Home/User/getFriends/userid/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003231s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0372s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0104s ]
+SQL: select * from `friends` where userid='000001'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0120s ]
+SQL: select * from `friends` where freid='000001'  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002443s ]
+
+[ 2017-06-04T00:11:27+08:00 ] ::1 /wechat/index.php/Home/User/getFriends/userid/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002921s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0464s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0097s ]
+SQL: select * from `friends` where userid='000001'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0103s ]
+SQL: select * from `friends` where freid='000001'  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002413s ]
+
+[ 2017-06-04T00:12:12+08:00 ] ::1 /wechat/index.php/Home/User/getFriends/userid/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002623s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0224s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0102s ]
+SQL: select * from `friends` where userid='000001'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0099s ]
+SQL: select * from `friends` where freid='000001'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002230s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002298s ]
+
+[ 2017-06-04T00:19:27+08:00 ] ::1 /wechat/index.php/Home/User/getFriends/userid/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017816s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0141s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0111s ]
+SQL: select * from `friends` where userid='000001'  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0114s ]
+SQL: select * from `friends` where freid='000001'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 62 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003777s ]
+
+[ 2017-06-04T00:19:37+08:00 ] ::1 /wechat/index.php/Home/User/getFriends/userid/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003414s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0404s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0114s ]
+SQL: select * from `friends` where userid='000001'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0105s ]
+SQL: select * from `friends` where freid='000001'  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 62 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003968s ]
+
+[ 2017-06-04T00:20:02+08:00 ] ::1 /wechat/index.php/Home/User/getFriends/userid/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002722s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0095s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0104s ]
+SQL: select * from `friends` where userid='000001'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0107s ]
+SQL: select * from `friends` where freid='000001'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 62 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003628s ]
+
+[ 2017-06-04T00:20:06+08:00 ] ::1 /wechat/index.php/Home/User/getFriends/userid/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002007s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0080s ]
+SQL: select * from `friends` where userid='000001'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0070s ]
+SQL: select * from `friends` where freid='000001'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 62 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002588s ]
+
+[ 2017-06-04T00:20:38+08:00 ] ::1 /wechat/index.php/Home/User/getFriends/userid/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004347s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0067s ]
+SQL: select * from `friends` where userid='000001'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0069s ]
+SQL: select * from `friends` where freid='000001'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 64 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003446s ]
+
+[ 2017-06-04T00:20:40+08:00 ] ::1 /wechat/index.php/Home/User/getFriends/userid/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003346s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0097s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0068s ]
+SQL: select * from `friends` where userid='000001'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0078s ]
+SQL: select * from `friends` where freid='000001'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 64 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002788s ]
+
+[ 2017-06-04T00:21:38+08:00 ] ::1 /wechat/index.php/Home/User/getFriends/userid/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003304s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0126s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0111s ]
+SQL: select * from `friends` where userid='000001'  [ RunTime:0.0428s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0099s ]
+SQL: select * from `friends` where freid='000001'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 64 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003738s ]
+
+[ 2017-06-04T00:26:59+08:00 ] ::1 /wechat/index.php/Home/User/getFriends/userid/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005725s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0215s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0104s ]
+SQL: select * from `friends` where userid='000001'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0095s ]
+SQL: select * from `friends` where freid='000001'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: json D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 77 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004161s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004268s ]
+
+[ 2017-06-04T00:28:13+08:00 ] ::1 /wechat/index.php/Home/User/getFriends/userid/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003963s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0219s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0117s ]
+SQL: select * from `friends` where userid='000001'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0131s ]
+SQL: select * from `friends` where freid='000001'  [ RunTime:0.0005s ]
+NOTIC: [2] array_merge(): Argument #1 is not an array D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 57 行.
+NOTIC: [8] Undefined index: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002715s ]
+
+[ 2017-06-04T00:28:49+08:00 ] ::1 /wechat/index.php/Home/User/getFriends/userid/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003616s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0135s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0123s ]
+SQL: select * from `friends` where userid='000001'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0126s ]
+SQL: select * from `friends` where freid='000001'  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003710s ]
+
+[ 2017-06-04T00:29:27+08:00 ] ::1 /wechat/index.php/Home/User/getFriends/userid/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005162s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0095s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0089s ]
+SQL: select * from `friends` where userid='000001'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0091s ]
+SQL: select * from `friends` where freid='000001'  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002866s ]
+
+[ 2017-06-04T00:29:29+08:00 ] ::1 /wechat/index.php/Home/User/getFriends/userid/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001889s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0113s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0091s ]
+SQL: select * from `friends` where userid='000001'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0098s ]
+SQL: select * from `friends` where freid='000001'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001982s ]
+
+[ 2017-06-04T00:29:40+08:00 ] ::1 /wechat/index.php/Home/User/getFriends/userid/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003261s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0390s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0101s ]
+SQL: select * from `friends` where userid='000001'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0099s ]
+SQL: select * from `friends` where freid='000001'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003204s ]
+
+[ 2017-06-04T00:29:53+08:00 ] ::1 /wechat/index.php/Home/User/getFriends/userid/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002040s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0067s ]
+SQL: select * from `friends` where userid='000001'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0081s ]
+SQL: select * from `friends` where freid='000001'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002450s ]
+
+[ 2017-06-04T00:30:07+08:00 ] ::1 /wechat/index.php/Home/User/getFriends/userid/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003569s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0347s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0899s ]
+SQL: select * from `friends` where userid='000001'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0095s ]
+SQL: select * from `friends` where freid='000001'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003167s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003305s ]
+
+[ 2017-06-04T00:30:09+08:00 ] ::1 /wechat/index.php/Home/User/getFriends/userid/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002599s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0248s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.1192s ]
+SQL: select * from `friends` where userid='000001'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0109s ]
+SQL: select * from `friends` where freid='000001'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003231s ]
+
+[ 2017-06-04T00:33:12+08:00 ] ::1 /wechat/index.php/Home/User/getFriends/userid/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003578s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0133s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0106s ]
+SQL: select freid from `friends` where userid='000001'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0098s ]
+SQL: select userid from `friends` where freid='000001'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: frename D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 54 行.
+NOTIC: [8] Undefined index: frename D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 54 行.
+NOTIC: [8] Undefined index: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002771s ]
+
+[ 2017-06-04T00:33:41+08:00 ] ::1 /wechat/index.php/Home/User/getFriends/userid/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003345s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0114s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0114s ]
+SQL: select frename from `friends` where userid='000001'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0104s ]
+SQL: select username from `friends` where freid='000001'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003717s ]
+
+[ 2017-06-04T00:34:37+08:00 ] ::1 /wechat/index.php/Home/User/getFriends/userid/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002556s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0182s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0070s ]
+SQL: select frename from `friends` where userid='000001'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0088s ]
+SQL: select username from `friends` where freid='000001'  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002890s ]
+
+[ 2017-06-04T00:34:58+08:00 ] ::1 /wechat/index.php/Home/User/getFriends/userid/000003
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002877s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0471s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0073s ]
+SQL: select frename from `friends` where userid='000003'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0082s ]
+SQL: select username from `friends` where freid='000003'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001961s ]
+
+[ 2017-06-04T00:35:05+08:00 ] ::1 /wechat/index.php/Home/User/getFriends/userid/000005
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002216s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0193s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0094s ]
+SQL: select frename from `friends` where userid='000005'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0087s ]
+SQL: select username from `friends` where freid='000005'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003932s ]
+
+[ 2017-06-04T00:36:40+08:00 ] ::1 /wechat/index.php/Home/User/getFriends/userid/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002645s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0106s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0084s ]
+SQL: select frename from `friends` where userid='000001'  [ RunTime:0.0003s ]
+SQL: select username from `friends` where freid='000001'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003873s ]
+
+[ 2017-06-04T00:56:17+08:00 ] ::1 /wechat/index.php/Home/User/addFriends/friendId/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003480s ]
+ERR: 非法操作:addFriends
+
+[ 2017-06-04T00:57:08+08:00 ] ::1 /wechat/index.php/Home/User/addFriends/userid/000002/friendId/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004532s ]
+ERR: 非法操作:addFriends
+
+[ 2017-06-04T00:57:10+08:00 ] ::1 /wechat/index.php/Home/User/addFriends/userid/000002/friendId/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002667s ]
+ERR: 非法操作:addFriends
+
+[ 2017-06-04T00:57:20+08:00 ] ::1 /wechat/index.php/Home/User/addFriends/friendId/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003059s ]
+ERR: 非法操作:addFriends
+
+[ 2017-06-04T00:57:22+08:00 ] ::1 /wechat/index.php/Home/User/getFriends/userid/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002768s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0129s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0128s ]
+SQL: select frename from `friends` where userid='000001'  [ RunTime:0.0007s ]
+SQL: select username from `friends` where freid='000001'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003930s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004072s ]
+
+[ 2017-06-04T00:57:31+08:00 ] ::1 /wechat/index.php/Home/User/addFriends/friendId/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003819s ]
+ERR: 非法操作:addFriends
+
+[ 2017-06-04T00:57:37+08:00 ] ::1 /wechat/index.php/Home/User/addFriend/friendId/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004028s ]
+ERR: 参数错误或者未定义:userid
+
+[ 2017-06-04T00:58:00+08:00 ] ::1 /wechat/index.php/Home/User/addFriend/userid/000002/friendId/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004449s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0403s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0112s ]
+NOTIC: [8] Undefined variable: freid D:\xampp2\htdocs\wechat\Application\Home\Model\FriendsModel.class.php 第 29 行.
+SQL: select * from `friends` where userid='000002'and freid=''  [ RunTime:0.0161s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0118s ]
+NOTIC: [8] Undefined variable: freid D:\xampp2\htdocs\wechat\Application\Home\Model\FriendsModel.class.php 第 35 行.
+SQL: select * from `friends` where userid=''and freid='000002'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0104s ]
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`wechat`.`friends`, CONSTRAINT `friends_ibfk_2` FOREIGN KEY (`username`) REFERENCES `user` (`username`))
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`freid`) VALUES ('000002','000001')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`wechat`.`friends`, CONSTRAINT `friends_ibfk_2` FOREIGN KEY (`username`) REFERENCES `user` (`username`))
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`freid`) VALUES ('000002','000001')
+
+[ 2017-06-04T01:00:33+08:00 ] ::1 /wechat/index.php/Home/User/addFriend/userid/000002/friendId/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002713s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0115s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0103s ]
+NOTIC: [8] Undefined variable: freid D:\xampp2\htdocs\wechat\Application\Home\Model\FriendsModel.class.php 第 29 行.
+SQL: select * from `friends` where userid='000002'and freid=''  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0104s ]
+NOTIC: [8] Undefined variable: freid D:\xampp2\htdocs\wechat\Application\Home\Model\FriendsModel.class.php 第 35 行.
+SQL: select * from `friends` where userid=''and freid='000002'  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: json D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 107 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003131s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003221s ]
+
+[ 2017-06-04T01:01:29+08:00 ] ::1 /wechat/index.php/Home/User/addFriend/userid/000002/friendId/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002565s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0078s ]
+SQL: select * from `friends` where userid='000002'and freid='000001'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0069s ]
+SQL: select * from `friends` where userid='000001'and freid='000002'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: json D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 107 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002673s ]
+
+[ 2017-06-04T01:06:46+08:00 ] ::1 /wechat/index.php/Home/User/addFriend/userid/000002/friendId/000001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002828s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0125s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0105s ]
+SQL: select * from `friends` where userid='000002'and freid='000001'  [ RunTime:0.0272s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0128s ]
+SQL: select * from `friends` where userid='000001'and freid='000002'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002966s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003026s ]
+
+[ 2017-06-04T01:13:23+08:00 ] ::1 /wechat/index.php/Home/User/login/username/zdr/pwd/123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004529s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0121s ]
+SQL: SELECT `id` FROM `user` ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zdr' AND `password` = '123' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zdr' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005030s ]
+
+[ 2017-06-04T01:14:12+08:00 ] ::1 /wechat/index.php/Home/User/addFriend/friendId/000004
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003105s ]
+NOTIC: [8] Undefined variable: userid D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 92 行.
+NOTIC: [8] Undefined variable: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0121s ]
+NOTIC: [8] Undefined variable: userid D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0116s ]
+SQL: select * from `friends` where userid=''and freid='000004'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0121s ]
+NOTIC: [8] Undefined variable: userid D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 95 行.
+SQL: select * from `friends` where userid='000004'and freid=''  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0123s ]
+SQL: select username from `friends` where userid='000004'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined variable: userid D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 103 行.
+NOTIC: [8] Undefined variable: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 103 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp2\htdocs\wechat\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`username`,`freid`) VALUES (NULL,NULL,'000004')
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`username`,`freid`) VALUES (NULL,NULL,'000004')
+
+[ 2017-06-04T01:15:53+08:00 ] ::1 /wechat/index.php/Home/User/addFriend/friendId/000004
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003217s ]
+NOTIC: [8] Undefined variable: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 93 行.
+NOTIC: [8] Undefined variable: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `user` WHERE `username` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0113s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0107s ]
+SQL: select * from `friends` where userid=''and freid='000004'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0104s ]
+SQL: select * from `friends` where userid='000004'and freid=''  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0109s ]
+SQL: select username from `friends` where userid='000004'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0107s ]
+NOTIC: [8] Undefined variable: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp2\htdocs\wechat\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`username`,`freid`) VALUES (NULL,NULL,'000004')
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`username`,`freid`) VALUES (NULL,NULL,'000004')
+
+[ 2017-06-04T01:15:55+08:00 ] ::1 /wechat/index.php/Home/User/addFriend/friendId/000004
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001486s ]
+NOTIC: [8] Undefined variable: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 93 行.
+NOTIC: [8] Undefined variable: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `user` WHERE `username` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0104s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0077s ]
+SQL: select * from `friends` where userid=''and freid='000004'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0076s ]
+SQL: select * from `friends` where userid='000004'and freid=''  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0215s ]
+SQL: select username from `friends` where userid='000004'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0076s ]
+NOTIC: [8] Undefined variable: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp2\htdocs\wechat\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`username`,`freid`) VALUES (NULL,NULL,'000004')
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`username`,`freid`) VALUES (NULL,NULL,'000004')
+
+[ 2017-06-04T01:16:09+08:00 ] ::1 /wechat/index.php/Home/User/addFriend/friendId/000002
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001503s ]
+NOTIC: [8] Undefined variable: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 93 行.
+NOTIC: [8] Undefined variable: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `user` WHERE `username` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0106s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0074s ]
+SQL: select * from `friends` where userid=''and freid='000002'  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0095s ]
+SQL: select * from `friends` where userid='000002'and freid=''  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0095s ]
+SQL: select username from `friends` where userid='000002'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0082s ]
+NOTIC: [8] Undefined variable: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp2\htdocs\wechat\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`username`,`freid`) VALUES (NULL,NULL,'000002')
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`username`,`freid`) VALUES (NULL,NULL,'000002')
+
+[ 2017-06-04T01:16:10+08:00 ] ::1 /wechat/index.php/Home/User/addFriend/friendId/000002
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003168s ]
+NOTIC: [8] Undefined variable: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 93 行.
+NOTIC: [8] Undefined variable: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 94 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `user` WHERE `username` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0105s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0116s ]
+SQL: select * from `friends` where userid=''and freid='000002'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0105s ]
+SQL: select * from `friends` where userid='000002'and freid=''  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0102s ]
+SQL: select username from `friends` where userid='000002'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0104s ]
+NOTIC: [8] Undefined variable: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp2\htdocs\wechat\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`username`,`freid`) VALUES (NULL,NULL,'000002')
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`username`,`freid`) VALUES (NULL,NULL,'000002')
+
+[ 2017-06-04T01:16:55+08:00 ] ::1 /wechat/index.php/Home/User/addFriend/friendId/000002
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002501s ]
+NOTIC: [8] Undefined variable: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 93 行.
+NOTIC: [8] Undefined variable: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 94 行.
+NOTIC: [8] Undefined variable: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0339s ]
+SQL: SELECT * FROM `user` WHERE `username` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0101s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0116s ]
+SQL: select * from `friends` where userid=''and freid='000002'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0105s ]
+SQL: select * from `friends` where userid='000002'and freid=''  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0112s ]
+SQL: select username from `friends` where userid='000002'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0104s ]
+NOTIC: [8] Undefined variable: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 107 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp2\htdocs\wechat\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`username`,`freid`) VALUES (NULL,NULL,'000002')
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`username`,`freid`) VALUES (NULL,NULL,'000002')
+
+[ 2017-06-04T01:20:40+08:00 ] ::1 /wechat/index.php/Home/User/addFriend/friendId/000002
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002518s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [8] Undefined variable: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 94 行.
+NOTIC: [8] Undefined variable: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 96 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `user` WHERE `username` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0129s ]
+SQL: select * from `friends` where userid=''and freid='000002'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0117s ]
+SQL: select * from `friends` where userid='000002'and freid=''  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0121s ]
+SQL: select username from `friends` where userid='000002'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0126s ]
+NOTIC: [8] Undefined variable: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 108 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp2\htdocs\wechat\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`username`,`freid`) VALUES (NULL,NULL,'000002')
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`username`,`freid`) VALUES (NULL,NULL,'000002')
+
+[ 2017-06-04T01:21:04+08:00 ] ::1 /wechat/index.php/Home/User/login/username/zdr/pwd/123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003174s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0129s ]
+SQL: SELECT `id` FROM `user` ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zdr' AND `password` = '123' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zdr' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002190s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002299s ]
+
+[ 2017-06-04T01:21:48+08:00 ] ::1 /wechat/index.php/Home/User/login/username/zdr/pwd/123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002248s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0112s ]
+SQL: SELECT `id` FROM `user` ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zdr' AND `password` = '123' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zdr' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002743s ]
+
+[ 2017-06-04T01:21:49+08:00 ] ::1 /wechat/index.php/Home/User/login/username/zdr/pwd/123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003058s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0154s ]
+SQL: SELECT `id` FROM `user` ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zdr' AND `password` = '123' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zdr' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002160s ]
+
+[ 2017-06-04T01:22:11+08:00 ] ::1 /wechat/index.php/Home/User/addFriend/000002
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002862s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 3 行.
+ERR: 参数错误或者未定义:friendId
+
+[ 2017-06-04T01:22:29+08:00 ] ::1 /wechat/index.php/Home/User/addFriend/frienfId/000002
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002219s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 3 行.
+ERR: 参数错误或者未定义:friendId
+
+[ 2017-06-04T01:22:41+08:00 ] ::1 /wechat/index.php/Home/User/addFriend/frienfId/000002
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003110s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 3 行.
+ERR: 参数错误或者未定义:friendId
+
+[ 2017-06-04T01:22:49+08:00 ] ::1 /wechat/index.php/Home/User/addFriend/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003786s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 3 行.
+ERR: 参数错误或者未定义:friendId
+
+[ 2017-06-04T01:23:13+08:00 ] ::1 /wechat/index.php/Home/User/addFriend/friendId/000002
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001858s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [8] Undefined variable: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 96 行.
+NOTIC: [8] Undefined variable: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 97 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `user` WHERE `username` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0102s ]
+SQL: select * from `friends` where userid=''and freid='000002'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0093s ]
+SQL: select * from `friends` where userid='000002'and freid=''  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0073s ]
+SQL: select username from `friends` where userid='000002'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0092s ]
+NOTIC: [8] Undefined variable: username D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 109 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp2\htdocs\wechat\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`username`,`freid`) VALUES (NULL,NULL,'000002')
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`username`,`freid`) VALUES (NULL,NULL,'000002')
+
+[ 2017-06-04T01:25:47+08:00 ] ::1 /wechat/index.php/Home/User/addFriend/friendId/000002
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002189s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `user` WHERE `username` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0101s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0104s ]
+SQL: select * from `friends` where userid=''and freid='000002'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0113s ]
+SQL: select * from `friends` where userid='000002'and freid=''  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0097s ]
+SQL: select username from `friends` where userid='000002'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0112s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp2\htdocs\wechat\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`username`,`freid`) VALUES (NULL,NULL,'000002')
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`username`,`freid`) VALUES (NULL,NULL,'000002')
+
+[ 2017-06-04T01:25:49+08:00 ] ::1 /wechat/index.php/Home/User/addFriend/friendId/000002
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002109s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `user` WHERE `username` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0121s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0124s ]
+SQL: select * from `friends` where userid=''and freid='000002'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0111s ]
+SQL: select * from `friends` where userid='000002'and freid=''  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0098s ]
+SQL: select username from `friends` where userid='000002'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp2\htdocs\wechat\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`username`,`freid`) VALUES (NULL,NULL,'000002')
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`username`,`freid`) VALUES (NULL,NULL,'000002')
+
+[ 2017-06-04T01:25:56+08:00 ] ::1 /wechat/index.php/Home/User/addFriend/friendId/000003
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004014s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0187s ]
+SQL: SELECT * FROM `user` WHERE `username` = null LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0134s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0108s ]
+SQL: select * from `friends` where userid=''and freid='000003'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0106s ]
+SQL: select * from `friends` where userid='000003'and freid=''  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0120s ]
+SQL: select username from `friends` where userid='000003'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0116s ]
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`username`,`freid`) VALUES (NULL,NULL,'000003')
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`username`,`freid`) VALUES (NULL,NULL,'000003')
+
+[ 2017-06-04T01:31:05+08:00 ] ::1 /wechat/index.php/Home/User/addFriend/friendId/000003
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002212s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `user` WHERE `username` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0099s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0112s ]
+SQL: select * from `friends` where userid=''and freid='000003'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0124s ]
+SQL: select * from `friends` where userid='000003'and freid=''  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0096s ]
+SQL: select username from `friends` where userid='000003'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0105s ]
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`username`,`freid`) VALUES (NULL,NULL,'000003')
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`username`,`freid`) VALUES (NULL,NULL,'000003')
+
+[ 2017-06-04T01:31:45+08:00 ] ::1 /wechat/index.php/Home/User/addFriend/friendId/000003
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002081s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `user` WHERE `username` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0104s ]
+SQL: select * from `friends` where userid=''and freid='000003'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0111s ]
+SQL: select * from `friends` where userid='000003'and freid=''  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0105s ]
+SQL: select username from `friends` where userid='000003'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0118s ]
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`username`,`freid`) VALUES (NULL,NULL,'000003')
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`username`,`freid`) VALUES (NULL,NULL,'000003')
+
+[ 2017-06-04T01:31:48+08:00 ] ::1 /wechat/index.php/Home/User/addFriend/friendId/000003
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003341s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `user` WHERE `username` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0105s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0104s ]
+SQL: select * from `friends` where userid=''and freid='000003'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0131s ]
+SQL: select * from `friends` where userid='000003'and freid=''  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0109s ]
+SQL: select username from `friends` where userid='000003'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0143s ]
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`username`,`freid`) VALUES (NULL,NULL,'000003')
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`username`,`freid`) VALUES (NULL,NULL,'000003')
+
+[ 2017-06-04T01:32:11+08:00 ] ::1 /wechat/index.php/Home/User/addFriend/friendId/000003
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002540s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0352s ]
+SQL: SELECT * FROM `user` WHERE `username` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0128s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0124s ]
+SQL: select * from `friends` where userid=''and freid='000003'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0101s ]
+SQL: select * from `friends` where userid='000003'and freid=''  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0109s ]
+SQL: select username from `friends` where userid='000003'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0102s ]
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`username`,`freid`) VALUES (NULL,NULL,'000003')
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`username`,`freid`) VALUES (NULL,NULL,'000003')
+
+[ 2017-06-04T01:32:16+08:00 ] ::1 /wechat/index.php/Home/User/addFriend/friendId/000003
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003056s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `user` WHERE `username` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0101s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0120s ]
+SQL: select * from `friends` where userid=''and freid='000003'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0138s ]
+SQL: select * from `friends` where userid='000003'and freid=''  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0122s ]
+SQL: select username from `friends` where userid='000003'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0114s ]
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`username`,`freid`) VALUES (NULL,NULL,'000003')
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`username`,`freid`) VALUES (NULL,NULL,'000003')
+
+[ 2017-06-04T01:32:28+08:00 ] ::1 /wechat/index.php/Home/User/addFriend/friendId/000003
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002097s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `user` WHERE `username` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0104s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0130s ]
+SQL: select * from `friends` where userid=''and freid='000003'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0108s ]
+SQL: select * from `friends` where userid='000003'and freid=''  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0102s ]
+SQL: select username from `friends` where userid='000003'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0105s ]
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`username`,`freid`) VALUES (NULL,NULL,'000003')
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`username`,`freid`) VALUES (NULL,NULL,'000003')
+
+[ 2017-06-04T01:33:31+08:00 ] ::1 /wechat/index.php/Home/User/login/username/zdr/pwd/123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002159s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0139s ]
+SQL: SELECT `id` FROM `user` ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zdr' AND `password` = '123' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zdr' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003780s ]
+
+[ 2017-06-04T01:35:35+08:00 ] ::1 /wechat/index.php/Home/User/addFriend/friendId/000002
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002123s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zdr' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0124s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0119s ]
+SQL: select * from `friends` where userid='000001'and freid='000002'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0110s ]
+SQL: select * from `friends` where userid='000002'and freid='000001'  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003446s ]
+
+[ 2017-06-04T01:35:56+08:00 ] ::1 /wechat/index.php/Home/User/addFriend/friendId/000004
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003496s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zdr' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0113s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0099s ]
+SQL: select * from `friends` where userid='000001'and freid='000004'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0122s ]
+SQL: select * from `friends` where userid='000004'and freid='000001'  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003750s ]
+
+[ 2017-06-04T01:38:17+08:00 ] ::1 /wechat/index.php/Home/User/addFriend/friendId/000005
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004373s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0311s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zdr' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0112s ]
+SQL: select * from `friends` where userid='000001'and freid='000005'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0102s ]
+SQL: select * from `friends` where userid='000005'and freid='000001'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0104s ]
+SQL: select username from `friends` where userid='000005'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0229s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp2\htdocs\wechat\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`wechat`.`friends`, CONSTRAINT `friends_ibfk_4` FOREIGN KEY (`frename`) REFERENCES `user` (`username`))
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`username`,`freid`) VALUES ('000001','zdr','000005')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`wechat`.`friends`, CONSTRAINT `friends_ibfk_4` FOREIGN KEY (`frename`) REFERENCES `user` (`username`))
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`username`,`freid`) VALUES ('000001','zdr','000005')
+
+[ 2017-06-04T01:42:00+08:00 ] ::1 /wechat/index.php/Home/User/addFriend/friendId/000005
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002278s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zdr' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0590s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0101s ]
+SQL: select * from `friends` where userid='000001'and freid='000005'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0113s ]
+SQL: select * from `friends` where userid='000005'and freid='000001'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0113s ]
+SQL: select username from `friends` where userid='000005'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003466s ]
+
+[ 2017-06-04T01:45:20+08:00 ] ::1 /wechat/index.php/Home/User/addFriend/friendId/000005
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002553s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zdr' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0100s ]
+SQL: select * from `friends` where userid='000001'and freid='000005'  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0108s ]
+SQL: select * from `friends` where userid='000005'and freid='000001'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0112s ]
+SQL: select username from `friends` where userid='000005'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0101s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp2\htdocs\wechat\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`wechat`.`friends`, CONSTRAINT `friends_ibfk_4` FOREIGN KEY (`frename`) REFERENCES `user` (`username`))
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`username`,`freid`) VALUES ('000001','zdr','000005')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`wechat`.`friends`, CONSTRAINT `friends_ibfk_4` FOREIGN KEY (`frename`) REFERENCES `user` (`username`))
+ [ SQL语句 ] : INSERT INTO `friends` (`userid`,`username`,`freid`) VALUES ('000001','zdr','000005')
+
+[ 2017-06-04T01:47:54+08:00 ] ::1 /wechat/index.php/Home/User/addFriend/friendId/000005
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001564s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zdr' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0094s ]
+SQL: select * from `friends` where userid='000001'and freid='000005'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0123s ]
+SQL: select * from `friends` where userid='000005'and freid='000001'  [ RunTime:0.0028s ]
+SQL: SELECT * FROM `friends` WHERE `username` = 'zdr' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0098s ]
+SQL: INSERT INTO `friends` (`userid`,`username`,`freid`,`frename`) VALUES ('000001','zdr','000005','zdr') [ RunTime:0.0972s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002681s ]
+
+[ 2017-06-04T01:48:49+08:00 ] ::1 /wechat/index.php/Home/User/addFriend/friendId/000005
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002395s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zdr' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0107s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0104s ]
+SQL: select * from `friends` where userid='000001'and freid='000005'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0118s ]
+SQL: select * from `friends` where userid='000005'and freid='000001'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002328s ]
+
+[ 2017-06-04T01:49:20+08:00 ] ::1 /wechat/index.php/Home/User/addFriend/friendId/000005
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001470s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp2\htdocs\wechat\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zdr' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0085s ]
+SQL: select * from `friends` where userid='000001'and freid='000005'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0079s ]
+SQL: select * from `friends` where userid='000005'and freid='000001'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002509s ]
+
